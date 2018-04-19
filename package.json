@@ -1,0 +1,21 @@
+{
+  "name": "wx_compare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d .vuepress/dist",
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawtung/mpvue-wepy-compare.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
