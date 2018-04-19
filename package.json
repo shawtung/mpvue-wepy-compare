@@ -2,13 +2,13 @@
   "name": "wx_compare",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "dependencies": {},
   "devDependencies": {
     "gh-pages": "^1.1.0"
   },
   "scripts": {
-    "deploy": "gh-pages -d .vuepress/dist",
+    "deploy": "vuepress build && gh-pages -d .vuepress/dist",
     "dev": "vuepress dev",
     "build": "vuepress build"
   },
